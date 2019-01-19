@@ -237,14 +237,17 @@ body {
 
 header {
   width: 100%;
-  display: flex;
 }
-header a {
-  text-decoration: none;
-  color: #6495ED;
-  padding: 0;
+header nav {
+  display: flex;
   list-style: none;
+}
+header nav a {
+  text-decoration: none;
+  color: #191970;
+  padding: 10% 20%;
   font-size: 3rem;
+  text-transform: uppercase;
 }
 
 /*# sourceMappingURL=styles.css.map */

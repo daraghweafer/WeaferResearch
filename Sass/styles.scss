@@ -36,13 +36,16 @@ body{
 
 header{
 	width: 100%;
-	display: flex;
-	a{
-		text-decoration: none;
-		color: $blue;
-		padding: 0;
+	nav{
+		display: flex;
 		list-style: none;
-		font-size: 3rem;
+		a{
+			text-decoration: none;
+			color: $darkblue;
+			padding: 10% 20%;
+			font-size: 3rem;
+			text-transform:uppercase;
+		}
 	}
 }
 
