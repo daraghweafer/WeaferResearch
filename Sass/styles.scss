@@ -37,10 +37,12 @@ body{
 header{
 	width: 100%;
 	display: flex;
+	a{
+		text-decoration: none;
+		color: $blue;
+		padding: 0;
+	}
 }
 
-h3{
-	font-size: 3rem;
-	color: $blue;
-}
+
 
