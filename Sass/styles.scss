@@ -37,7 +37,7 @@ body{
 header{
 	width: 100%;
 	background: $lightblue;
-	border-bottom: 2px solid $grey;
+	border-bottom: 1px solid $grey;
 	nav{
 		display: flex;
 		list-style: none;
@@ -46,8 +46,9 @@ header{
 			text-decoration: none;
 			list-style: none;
 			color: $darkblue;
-			padding: 10% 20%;
-			font-size: 2rem;
+			padding: 10%;
+			margin: 0;
+			font-size: 1.5rem;
 			text-transform:uppercase;
 		}
 	}

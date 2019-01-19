@@ -238,7 +238,7 @@ body {
 header {
   width: 100%;
   background: #ADD8E6;
-  border-bottom: 2px solid #C0C0C0;
+  border-bottom: 1px solid #C0C0C0;
 }
 header nav {
   display: flex;
@@ -249,8 +249,9 @@ header nav a {
   text-decoration: none;
   list-style: none;
   color: #191970;
-  padding: 10% 20%;
-  font-size: 2rem;
+  padding: 10%;
+  margin: 0;
+  font-size: 1.5rem;
   text-transform: uppercase;
 }
 
