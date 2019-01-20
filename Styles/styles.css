@@ -242,7 +242,6 @@ header {
   border-bottom: 2px solid #C0C0C0;
 }
 header nav {
-  display: flex;
   list-style: none;
   padding-bottom: 5%;
 }
@@ -251,7 +250,12 @@ header nav img {
   max-height: 100%;
 }
 header nav li {
+  display: flex;
+}
+header nav li a {
+  flex-grow: 1;
   justify-content: space-around;
+  align-content: flex-end;
   align-items: flex-end;
   text-decoration: none;
   list-style: none;
