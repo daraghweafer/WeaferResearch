@@ -37,12 +37,13 @@ body{
 header{
 	width: 100%;
 	height: 251px;
-	background: $blue;
+	background: $lightblue;
 	border-bottom: 1px solid $grey;
 	nav{
 		display: flex;
 		list-style: none;
 		padding-bottom: 5%;
+		width: 75vw;
 		a{
 
 			text-decoration: none;
