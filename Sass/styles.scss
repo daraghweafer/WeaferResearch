@@ -49,11 +49,9 @@ header{
 		}
 		li{
 			display: flex;
+			width: 15vw;
+			align-items: flex-end;
 			a{
-				flex-grow: 1;
-				justify-content: space-around;
-				align-content: flex-end;
-				align-items: baseline;
 				text-decoration: none;
 				list-style: none;
 				color: $darkblue;
