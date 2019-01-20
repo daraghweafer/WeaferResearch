@@ -242,6 +242,7 @@ header {
   border-bottom: 2px solid #C0C0C0;
 }
 header nav {
+  display: flex;
   list-style: none;
   padding-bottom: 5%;
 }
