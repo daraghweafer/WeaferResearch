@@ -254,6 +254,7 @@ header nav li {
   display: flex;
   width: 15vw;
   align-items: flex-end;
+  justify-content: space-around;
 }
 header nav li a {
   text-decoration: none;
