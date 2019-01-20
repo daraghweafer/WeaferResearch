@@ -48,7 +48,8 @@ header{
 			max-height: 100%;
 		}
 		a{
-
+			justify-content: space-around;
+			align-items: flex-end;
 			text-decoration: none;
 			list-style: none;
 			color: $darkblue;

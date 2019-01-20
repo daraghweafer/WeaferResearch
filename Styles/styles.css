@@ -251,6 +251,8 @@ header nav img {
   max-height: 100%;
 }
 header nav a {
+  justify-content: space-around;
+  align-items: flex-end;
   text-decoration: none;
   list-style: none;
   color: #191970;
