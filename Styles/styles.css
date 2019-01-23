@@ -290,6 +290,7 @@ iframe {
 
 .twitter-timeline {
   width: 25%;
+  margin-top: 2%;
 }
 
 @media screen and (max-device-width: 320px) {
