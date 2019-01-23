@@ -19,6 +19,9 @@ html{
 body{
 	font-family: 'Montserrat', sans-serif;
 	background: $white;
+	p{
+		font-size: 1.8rem;
+	}
 }
 
 .visuallyhidden:not(:focus):not(:active) {
@@ -67,6 +70,7 @@ main{
 	width: 75vw;
 	float: left;
 	padding: 5%;
+	background-color: $grey;
 	img{
 		max-width: 100%;
 		max-height: 100%;
@@ -81,7 +85,7 @@ iframe {
 	height: 100vh;
 	border: none;
 	float: right;
-	
+
 }
 
 
