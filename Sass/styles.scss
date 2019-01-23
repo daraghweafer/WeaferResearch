@@ -110,6 +110,9 @@ $target-width: 320px;
   	}
   	li{
   		float: left;
+  		a:hover{
+  			border-bottom: 2px solid $offwhite;
+  		}
   	}
   }
   a.twitter-timeline{

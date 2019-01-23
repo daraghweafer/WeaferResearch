@@ -311,6 +311,9 @@ a.twitter-timeline {
   nav li {
     float: left;
   }
+  nav li a:hover {
+    border-bottom: 2px solid #F8F8FF;
+  }
 
   a.twitter-timeline {
     display: none;
