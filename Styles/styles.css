@@ -240,6 +240,7 @@ header {
   background: rgba(25, 25, 112, 0.5);
   border-bottom: 2px solid #C0C0C0;
   margin: 10%;
+  max-height: 150px;
 }
 header nav {
   display: flex;
