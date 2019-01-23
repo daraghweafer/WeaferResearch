@@ -281,8 +281,8 @@ main img {
 
 iframe {
   width: 25%;
-  margin: 0;
-  padding: 0 2% 0 0;
+  margin: 0 2% 0 0;
+  padding: 0;
   border: none;
   float: right;
 }
