@@ -267,7 +267,8 @@ header nav li a {
 main {
   width: 75vw;
   float: left;
-  padding: 5%;
+  margin: 5%;
+  background: #F5F5F5;
 }
 main p {
   font-size: 1.8rem;
@@ -297,7 +298,6 @@ iframe {
 
   nav {
     display: block;
-    float: left;
   }
 }
 
