@@ -37,7 +37,7 @@ body{
 
 header{
 	width: 100%;
-	background: $lightblue;
+	background: $darkblue;
 	border-bottom: 2px solid $grey;
 	nav{
 		display: flex;
@@ -49,12 +49,12 @@ header{
 		li{
 			display: flex;
 			width: 15vw;
-			align-items: flex-end;
+			align-items: center;
 			justify-content: space-around; 
 			a{
 				text-decoration: none;
 				list-style: none;
-				color: $darkblue;
+				color: $offwhite;
 				padding: 10%;
 				font-size: 2.2rem;
 				font-weight: bold;

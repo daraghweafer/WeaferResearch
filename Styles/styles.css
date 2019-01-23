@@ -237,7 +237,7 @@ body {
 
 header {
   width: 100%;
-  background: #bfd4ef;
+  background: #191970;
   border-bottom: 2px solid #C0C0C0;
 }
 header nav {
@@ -251,13 +251,13 @@ header nav img {
 header nav li {
   display: flex;
   width: 15vw;
-  align-items: flex-end;
+  align-items: center;
   justify-content: space-around;
 }
 header nav li a {
   text-decoration: none;
   list-style: none;
-  color: #191970;
+  color: #F8F8FF;
   padding: 10%;
   font-size: 2.2rem;
   font-weight: bold;
