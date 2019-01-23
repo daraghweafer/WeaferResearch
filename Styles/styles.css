@@ -295,6 +295,11 @@ iframe {
   main {
     width: 100vw;
   }
+
+  nav {
+    display: block;
+    float: left;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */
