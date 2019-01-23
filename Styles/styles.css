@@ -239,12 +239,11 @@ header {
   width: 100%;
   background: linear-gradient(to bottom, #000000, rgba(25, 25, 112, 0.8));
   border-bottom: 2px solid #C0C0C0;
-  margin: 10%;
-  max-height: 150px;
 }
 header nav {
   display: flex;
   list-style: none;
+  margin: 10% 0;
 }
 header nav img {
   max-width: 100%;
