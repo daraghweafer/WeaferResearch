@@ -275,10 +275,11 @@ main p {
 main img {
   max-width: 100%;
   max-height: 100%;
+  padding-top: 0;
 }
 
 iframe {
-  width: 25vw;
+  width: 20%;
   margin: 0 5% 0 0;
   padding: 0;
   border: none;
