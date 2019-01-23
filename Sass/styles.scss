@@ -85,7 +85,7 @@ iframe {
 	padding: 0;
 	border: none;
 	float: right;
-
+	overflow: hidden;
 }
 
 
@@ -100,7 +100,7 @@ $target-width: 320px;
   	width: 100vw;
   }
   nav{
-  	display: block;
+  	display: inline-block;
   	img{
   		float: left;
   	}

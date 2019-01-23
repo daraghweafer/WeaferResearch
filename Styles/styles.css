@@ -285,6 +285,7 @@ iframe {
   padding: 0;
   border: none;
   float: right;
+  overflow: hidden;
 }
 
 @media screen and (max-device-width: 320px) {
@@ -297,7 +298,7 @@ iframe {
   }
 
   nav {
-    display: block;
+    display: inline-block;
   }
   nav img {
     float: left;
