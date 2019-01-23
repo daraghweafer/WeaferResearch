@@ -7,7 +7,8 @@ html{line-height:1.15;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}bo
 $blue: #6495ED;
 $lightblue:#bfd4ef;
 $darkblue:#191970;
-$white:#F8F8FF;
+$white:#FFFFFF;
+$offwhite:#F8F8FF;
 $grey:#C0C0C0;
 $black: #000000;
 
@@ -67,7 +68,7 @@ main{
 	width: 66vw;
 	float: left;
 	margin: 2% 2% 5% 5%;
-	background: #F5F5F5;
+	background: $offwhite;
 	p{
 		font-size: 1.8rem;
 	}

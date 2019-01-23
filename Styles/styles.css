@@ -219,7 +219,7 @@ html {
 
 body {
   font-family: "Montserrat", sans-serif;
-  background: #F8F8FF;
+  background: #FFFFFF;
 }
 
 .visuallyhidden:not(:focus):not(:active) {
@@ -268,7 +268,7 @@ main {
   width: 66vw;
   float: left;
   margin: 2% 2% 5% 5%;
-  background: #F5F5F5;
+  background: #F8F8FF;
 }
 main p {
   font-size: 1.8rem;
