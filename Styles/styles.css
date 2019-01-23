@@ -265,7 +265,7 @@ header nav li a {
 }
 
 main {
-  width: 70vw;
+  width: 65vw;
   float: left;
   margin: 5%;
   background: #F5F5F5;
@@ -297,6 +297,13 @@ iframe {
   }
 
   nav {
+    display: block;
+  }
+  nav img {
+    float: left;
+  }
+  nav li {
+    float: left;
     display: block;
   }
 }

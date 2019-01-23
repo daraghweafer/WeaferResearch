@@ -64,7 +64,7 @@ header{
 }
 
 main{
-	width: 70vw;
+	width: 65vw;
 	float: left;
 	margin: 5%;
 	background: #F5F5F5;
@@ -101,5 +101,12 @@ $target-width: 320px;
   }
   nav{
   	display: block;
+  	img{
+  		float: left;
+  	}
+  	li{
+  		float: left;
+  		display: block;
+  	}
   }
 }
