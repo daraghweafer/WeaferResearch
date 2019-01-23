@@ -311,6 +311,10 @@ a.twitter-timeline {
   nav li {
     float: left;
   }
+
+  a.twitter-timeline {
+    display: none;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */
