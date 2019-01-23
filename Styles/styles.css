@@ -280,12 +280,16 @@ main img {
 }
 
 iframe {
-  width: 100%;
+  width: 25%;
   margin: 0 2% 0 0;
   padding: 0;
   border: none;
   float: right;
   overflow: hidden;
+}
+
+.twitter-timeline {
+  width: 25%;
 }
 
 @media screen and (max-device-width: 320px) {
