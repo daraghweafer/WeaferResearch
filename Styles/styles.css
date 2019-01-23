@@ -237,7 +237,7 @@ body {
 
 header {
   width: 100%;
-  background: #191970;
+  background: rgba(25, 25, 112, 0.5);
   border-bottom: 2px solid #C0C0C0;
 }
 header nav {
