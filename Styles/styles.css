@@ -237,13 +237,12 @@ body {
 
 header {
   width: 100%;
-  background: #6495ED;
+  background: #bfd4ef;
   border-bottom: 2px solid #C0C0C0;
 }
 header nav {
   display: flex;
   list-style: none;
-  padding-bottom: 5%;
 }
 header nav img {
   max-width: 100%;
@@ -263,6 +262,14 @@ header nav li a {
   font-size: 2.2rem;
   font-weight: bold;
   font-variant: small-caps;
+}
+
+iframe {
+  width: 25vw;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  border: none;
 }
 
 /*# sourceMappingURL=styles.css.map */
