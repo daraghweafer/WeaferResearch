@@ -6,7 +6,7 @@ html{line-height:1.15;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}bo
 
 $blue: #6495ED;
 $lightblue:#bfd4ef;
-$darkblue: rgba(25,25,112,0.5);
+$darkblue: rgba(25,25,112,0.8);
 $white:#FFFFFF;
 $offwhite:#F8F8FF;
 $grey:#C0C0C0;
@@ -37,7 +37,7 @@ body{
 
 header{
 	width: 100%;
-	background: $darkblue;
+	background: linear-gradient(to bottom, $black, $darkblue);
 	border-bottom: 2px solid $grey;
 	margin: 10%;
 	max-height: 150px;
