@@ -6,9 +6,9 @@ html{line-height:1.15;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}bo
 
 $blue: #6495ED;
 $lightblue:#bfd4ef;
-$darkblue: rgba(25,25,112,0.8);
+$darkblue: #191970;
 $white:#FFFFFF;
-$offwhite:#F8F8FF;
+$offwhite: #FFFAFA;
 $grey:#C0C0C0;
 $black: #000000;
 
@@ -19,7 +19,9 @@ html{
 
 body{
 	font-family: 'Montserrat', sans-serif;
-	background: $white;
+	background-image: linear-gradient(rgba(100,149,237,0.5),
+		                              rgba(100,149,237,0.2)),
+		                               url(..//Assets/prism.png);
 }
 
 .visuallyhidden:not(:focus):not(:active) {
@@ -37,12 +39,13 @@ body{
 
 header{
 	width: 100%;
-	background: linear-gradient(to bottom, $black, $darkblue);
+	background-color: $offwhite;
 	border-bottom: 2px solid $grey;
+	margin-bottom: 5%;
 	nav{
 		display: flex;
 		list-style: none;
-		margin: 10% 0;
+		margin: 0 10%;
 		img{
 			max-width: 100%;
 			max-height: 100%;
@@ -53,10 +56,13 @@ header{
 			width: 15vw;
 			align-items: center;
 			justify-content: space-around; 
+			a:hover{
+				border-bottom: 2px solid $darkblue;
+			}
 			a{
 				text-decoration: none;
 				list-style: none;
-				color: $offwhite;
+				color: $darkblue;
 				padding: 10%;
 				font-size: 2.2rem;
 				font-weight: bold;
@@ -70,33 +76,69 @@ main{
 	width: 66vw;
 	float: left;
 	margin: 2% 2% 5% 5%;
-	background: $offwhite;
+	background: $white;
+	border-radius: 1%;
 	p{
+		padding: 2%;
 		font-size: 1.8rem;
+		text-align: justify;
 	}
 	img{
 		max-width: 100%;
 		max-height: 100%;
 		padding-top: 0;
+		border-radius: 1% 1% 0 0;
 	}
 
 }
 
-iframe {
-	width: 25%;
-	margin: 0 2% 0 0;
-	padding: 0;
-	border: none;
-	float: right;
-	overflow: hidden;
+// iframe {
+// 	width: 25%;
+// 	margin: 0 2% 0 0;
+// 	padding: 0;
+// 	border: none;
+// 	float: right;
+// 	overflow: hidden;
+// }
+.caseStudy{
+	padding: 10%;
+	background: linear-gradient(rgba(0,0,0,0.7),
+		                       rgba(0,0,0,0.7)),
+				                url(../Assets/Generic-research.jpg) no-repeat center fixed;
+	background-size: cover;
 }
-a.twitter-timeline {
-	width: 25%;
-	margin-top: 2%;
+
+h2{
+	font-size: 3rem;
+	color: $offwhite;
+	text-align: center;
+	margin-top: 10%;
+}
+.caseStudyImages{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	figcaption{
+		font-size: 2rem;
+		padding: 5%;
+	}
+	figure{
+		width: 30%;
+		background-color: $offwhite;
+		border-radius: 1%;
+		margin: 1%;
+	}
+	img{
+		max-width: 100%;
+		border-radius: 1% 1% 0 0;
+	}
 }
 
 $width-name: max-device-width;
 $target-width: 320px;
+
+
+///mobile version 
 
 @media screen and ($width-name : $target-width) {
   iframe{
@@ -112,9 +154,6 @@ $target-width: 320px;
   	}
   	li{
   		float: left;
-  		a:hover{
-  			border-bottom: 2px solid $offwhite;
-  		}
   	}
   }
   a.twitter-timeline{

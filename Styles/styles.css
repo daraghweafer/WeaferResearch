@@ -219,7 +219,7 @@ html {
 
 body {
   font-family: "Montserrat", sans-serif;
-  background: #FFFFFF;
+  background-image: linear-gradient(rgba(100, 149, 237, 0.5), rgba(100, 149, 237, 0.2)), url(..//Assets/prism.png);
 }
 
 .visuallyhidden:not(:focus):not(:active) {
@@ -237,13 +237,14 @@ body {
 
 header {
   width: 100%;
-  background: linear-gradient(to bottom, #000000, rgba(25, 25, 112, 0.8));
+  background-color: #FFFAFA;
   border-bottom: 2px solid #C0C0C0;
+  margin-bottom: 5%;
 }
 header nav {
   display: flex;
   list-style: none;
-  margin: 10% 0;
+  margin: 0 10%;
 }
 header nav img {
   max-width: 100%;
@@ -256,10 +257,13 @@ header nav li {
   align-items: center;
   justify-content: space-around;
 }
+header nav li a:hover {
+  border-bottom: 2px solid #191970;
+}
 header nav li a {
   text-decoration: none;
   list-style: none;
-  color: #F8F8FF;
+  color: #191970;
   padding: 10%;
   font-size: 2.2rem;
   font-weight: bold;
@@ -270,29 +274,52 @@ main {
   width: 66vw;
   float: left;
   margin: 2% 2% 5% 5%;
-  background: #F8F8FF;
+  background: #FFFFFF;
+  border-radius: 1%;
 }
 main p {
+  padding: 2%;
   font-size: 1.8rem;
+  text-align: justify;
 }
 main img {
   max-width: 100%;
   max-height: 100%;
   padding-top: 0;
+  border-radius: 1% 1% 0 0;
 }
 
-iframe {
-  width: 25%;
-  margin: 0 2% 0 0;
-  padding: 0;
-  border: none;
-  float: right;
-  overflow: hidden;
+.caseStudy {
+  padding: 10%;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../Assets/Generic-research.jpg) no-repeat center fixed;
+  background-size: cover;
 }
 
-a.twitter-timeline {
-  width: 25%;
-  margin-top: 2%;
+h2 {
+  font-size: 3rem;
+  color: #FFFAFA;
+  text-align: center;
+  margin-top: 10%;
+}
+
+.caseStudyImages {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.caseStudyImages figcaption {
+  font-size: 2rem;
+  padding: 5%;
+}
+.caseStudyImages figure {
+  width: 30%;
+  background-color: #FFFAFA;
+  border-radius: 1%;
+  margin: 1%;
+}
+.caseStudyImages img {
+  max-width: 100%;
+  border-radius: 1% 1% 0 0;
 }
 
 @media screen and (max-device-width: 320px) {
@@ -312,9 +339,6 @@ a.twitter-timeline {
   }
   nav li {
     float: left;
-  }
-  nav li a:hover {
-    border-bottom: 2px solid #F8F8FF;
   }
 
   a.twitter-timeline {
