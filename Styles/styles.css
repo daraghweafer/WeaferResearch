@@ -281,7 +281,7 @@ main {
 main p {
   padding: 0 5%;
   font-size: 1.8rem;
-  text-align: justify;
+  text-align: left;
 }
 main img {
   max-width: 100%;
@@ -413,7 +413,7 @@ footer {
 
   header {
     height: 100vh;
-    margin-bottom: 5%;
+    margin-bottom: 15%;
   }
   header nav {
     height: 100vh;
@@ -434,6 +434,8 @@ footer {
 
   main {
     width: 100vw;
+    margin: 0 0 15% 0;
+    border-radius: 0;
   }
 
   nav {
@@ -446,10 +448,13 @@ footer {
 
   .caseStudy {
     background: #1e1e1e;
+    padding: 5% 0;
+    margin: 0;
   }
   .caseStudy figure {
     width: 100%;
-    margin-bottom: 15%;
+    margin: 0 0 5% 0;
+    border-radius: 0;
   }
 
   .twitter,
