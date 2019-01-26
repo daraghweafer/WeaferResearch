@@ -144,8 +144,7 @@ footer{
 	background: $white;
 	border-top: 3px solid $gold;
 	color: $black;
-	display: flex; 
-	
+	display: flex; 	
 }
 .container1,
 .container2,
@@ -155,6 +154,7 @@ footer{
 .container1{
 	img{
 		margin-left: 5%;
+		width: 100%;
 	}
 	p{
 		font-size: 1.2rem;
@@ -209,13 +209,13 @@ footer{
 	}
 }
 
-// $width-name: max-device-width;
-// $target-width: 320px;
-
 
 ///mobile version 
 
-@media only screen and (max-width:360px) {
+$width-name: max-device-width;
+$target-width: 320px;
+
+@media screen and ($width-name : $target-width) {
   body{
   	width: 100%;
   }
@@ -256,56 +256,56 @@ footer{
   	figure{
   		width: 100%;
   		margin-bottom: 15%;
-  	}
-  }
-  .twitter,
-  .survey{
-  	display: none;
-  }
-}
+	  	}
+	}
 
-footer{
-	flex-direction: column;
+	.twitter,
+	.survey{
+	  	display: none;
+	}
 
-}
-.container1,
-.container2,
-.container3{
-	width: 100vw;
-}
+	footer{
+		flex-direction: column;
+	}
 
-.container1{
-	img{
-		margin: 0 5%;
+	.container1,
+	.container2,
+	.container3{
 		width: 100vw;
 	}
-	p{
-		margin: 0;
-		padding: 10%;
-	}
-}
 
-.container2{
-	h3{
-		padding-bottom: 5%;
-	}
-}
-
-.container3{
-	justify-content: space-around;
-	margin: 10% 0 10% 0;
-	li{
-		a{
-			font-size: 3rem;
+	.container1{
+		img{
+			margin: 0 5%;
+			width: 100vw;
+		}
+		p{
+			margin: 0;
+			padding: 10%;
 		}
 	}
-}
 
-.column1,
-.column2{
-	flex-direction: row;
-}
+	.container2{
+		h3{
+			padding-bottom: 5%;
+		}
+	}
 
+	.container3{
+		justify-content: space-around;
+		margin: 10% 0 10% 0;
+		li{
+			a{
+				font-size: 3rem;
+			}
+		}
+	}
+
+	.column1,
+	.column2{
+		flex-direction: row;
+	}
+}
 //larger screens
 
 @media only screen and (min-width:1300px){

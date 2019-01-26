@@ -352,6 +352,7 @@ footer {
 
 .container1 img {
   margin-left: 5%;
+  width: 100%;
 }
 .container1 p {
   font-size: 1.2rem;
@@ -405,7 +406,7 @@ footer {
   padding: 25%;
 }
 
-@media only screen and (max-width: 360px) {
+@media screen and (max-device-width: 320px) {
   body {
     width: 100%;
   }
@@ -455,43 +456,43 @@ footer {
 .survey {
     display: none;
   }
-}
-footer {
-  flex-direction: column;
-}
 
-.container1,
+  footer {
+    flex-direction: column;
+  }
+
+  .container1,
 .container2,
 .container3 {
-  width: 100vw;
-}
+    width: 100vw;
+  }
 
-.container1 img {
-  margin: 0 5%;
-  width: 100vw;
-}
-.container1 p {
-  margin: 0;
-  padding: 10%;
-}
+  .container1 img {
+    margin: 0 5%;
+    width: 100vw;
+  }
+  .container1 p {
+    margin: 0;
+    padding: 10%;
+  }
 
-.container2 h3 {
-  padding-bottom: 5%;
-}
+  .container2 h3 {
+    padding-bottom: 5%;
+  }
 
-.container3 {
-  justify-content: space-around;
-  margin: 10% 0 10% 0;
-}
-.container3 li a {
-  font-size: 3rem;
-}
+  .container3 {
+    justify-content: space-around;
+    margin: 10% 0 10% 0;
+  }
+  .container3 li a {
+    font-size: 3rem;
+  }
 
-.column1,
+  .column1,
 .column2 {
-  flex-direction: row;
+    flex-direction: row;
+  }
 }
-
 @media only screen and (min-width: 1300px) {
   body {
     margin: 10%;
