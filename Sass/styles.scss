@@ -220,17 +220,22 @@ footer{
   	width: 100%;
   }
   header{
-  	height: 50vh;
+  	height: 100vh;
+  	margin-bottom: 5%;
   	nav{
-		height: 50vh;
+		height: 100vh;
 		img{
-			margin-top: 5%;
+			margin-top: 15%;
 			padding: 0;
 		}
 		li{
 			justify-content: flex-start;
 			width: 50vw;
 			margin-bottom: 10%;
+			a{
+				width: 50vw;
+				border-bottom: 1px solid $gold;
+			}
 		}
   	}
   }
@@ -247,7 +252,7 @@ footer{
   }
 
   .caseStudy{
-  	background: $black;
+  	background: rgb(30,30,30);
   	figure{
   		width: 100%;
   		margin-bottom: 15%;
@@ -288,6 +293,7 @@ footer{
 
 .container3{
 	justify-content: space-around;
+	margin: 10% 0 10% 0;
 	li{
 		a{
 			font-size: 3rem;
