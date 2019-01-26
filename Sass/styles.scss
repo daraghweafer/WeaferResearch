@@ -11,6 +11,7 @@ $white:#FFFFFF;
 $offwhite: #FFFAFA;
 $grey:#C0C0C0;
 $black: rgb(20,20,20);
+$gold: #DAA520;
 
 
 html{
@@ -38,7 +39,7 @@ body{
 header{
 	width: 100%;
 	background-color: $offwhite;
-	border-bottom: 3px solid gold;
+	border-bottom: 3px solid $gold;
 	margin-bottom: 3%;
 	nav{
 		display: flex;
@@ -56,11 +57,10 @@ header{
 			align-items: center;
 			justify-content: space-around; 
 			a:hover{
-				border-bottom: 2px solid $black;
+				border-bottom: 2px solid $gold;
 			}
 			a{
 				text-decoration: none;
-				list-style: none;
 				color: $black;
 				padding: 5%;
 				font-size: 2rem;
@@ -135,19 +135,69 @@ h2{
 }
 
 .survey{
-	width: 80%;
 	margin: 10%;
-	height: 100vh;
 }
 
+footer{
+	width: 100%;
+	margin: 0;
+	background: $white;
+	border-top: 3px solid $gold;
+	color: $black;
+	display: flex; 
+	
+}
+.container1,
+.container2,
+.container3{
+	width: 33%;
+}
+.container1{
+	img{
+		margin-left: 5%;
+	}
+	p{
+		font-size: 1.2rem;
+		margin-left: 50%;
+		line-height: 1.5;
+	}
+}
 
-$width-name: max-device-width;
-$target-width: 320px;
+.container2{
+	padding: 10%;
+	h3{
+		font-size: 1.7rem;
+		font-variant: small-caps;
+		text-decoration: underline;
+		text-underline-position: under;
+		padding-bottom: 15%;
+	}
+	li{
+		list-style: none;
+		a{
+			text-decoration: none;
+			color: $black;
+			font-size: 1.5rem;
+			font-weight: bold;
+			font-variant: small-caps;
+			line-height: 1.8;
+		}
+	}	
+}
+
+.container3{
+	padding: 15%;
+	font-size: 2.2rem;
+	color: $black;
+}
+
+// $width-name: max-device-width;
+// $target-width: 320px;
 
 
 ///mobile version 
 
-@media screen and ($width-name : $target-width) {
+@media only screen and (max-width:320px) {
   iframe{
   	// display: none;
   }
@@ -166,4 +216,12 @@ $target-width: 320px;
   .twitter-timeline a{
   	display: none;
   }
+}
+
+//larger screens
+
+@media only screen and (min-width:1300px){
+	body{
+		margin: 10%;
+	}
 }

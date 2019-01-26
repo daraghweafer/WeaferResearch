@@ -19,7 +19,7 @@
 			<li><a href="#contact">Contact</a></li>
 		</nav>
 	</header>
-	<main>
+	<main id="home">
 		<img src="Assets/Hero_Main.jpg">
 		<div>
 			<p>
@@ -37,7 +37,7 @@
 		<a class="twitter-timeline" data-width="300" data-height="1200" data-theme="dark" data-link-color="#2B7BB9" href="https://twitter.com/PewReligion?ref_src=twsrc%5Etfw">Tweets by PewReligion</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 	</div>	
 
-	<div class="caseStudy">
+	<div id="case" class="caseStudy">
 		<h2>
 			Case Studies
 		</h2>
@@ -58,8 +58,50 @@
 			</figure>
 		</div>
 	</div>
-
-	<iframe src="https://www.surveymonkey.com/" class="survey" height="100vh" alt="Survey Monkey"></iframe>
 	
+	<div class="survey">
+	<img src="https://dummyimage.com/1000/ffffff/000000.jpg&text=Survey+Monkey">
+	</div>
+	<!-- <iframe src="https://www.surveymonkey.com/" class="survey" height="100vh" alt="Survey Monkey"></iframe> -->
+	
+	<footer id="contact">
+		<div class="container1">
+			<img src="Assets/Logo2.png" alt="">
+			<p>54 River Forest View
+				<br>Leixlip
+				<br>Co. Kildare
+				<br>Ireland
+				<br>Ph: 999-999-9999
+				<br>Company # 315385</p>
+		</div>
+		<div class="container2">
+			<h3>
+				Quick Links
+			</h3>
+			<nav class="footerNavigation">
+				<li><a href="#home">Home</a></li>
+				<li><a href="#case">Case Studies</a></li>
+				<li><a href="#about">About</a></li>
+			</nav>
+		</div>
+		<div class="container3">
+			<i class="fab fa-linkedin"></i>
+			<i class="fab fa-facebook-square"></i>
+			<i class="fas fa-envelope"></i>
+		</div>
+	</footer>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-smooth-scroll/2.1.2/jquery.smooth-scroll.min.js"></script>
+
+	<script>
+		$(function() {
+			$('a').smoothScroll ({
+				offset: -45
+			});
+		})
+	</script>
+
 </body>
 </html>
