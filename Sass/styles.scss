@@ -188,10 +188,10 @@ footer{
 .container3{
 	list-style: none;
 	display: flex;
-	margin: 15% 0 10% 0;
+	margin: 15% 0 10% 5%;
 	align-items: center;
 	li{
-		padding: 5%;
+		padding: 10%;
 		a{
 			font-size: 2.2rem;
 			color: $black; 
@@ -212,10 +212,9 @@ footer{
 
 ///mobile version 
 
-@media screen and ($width-name : $target-width) {
-
-$width-name: max-device-width;
+$width-name: max-width;
 $target-width: 320px;
+@media screen and ($width-name : $target-width) {
 
   body{
   	width: 100%;
@@ -307,8 +306,6 @@ $target-width: 320px;
 		flex-direction: row;
 	}
 }
-
-
 //larger screens
 
 @media only screen and (min-width:1300px){
