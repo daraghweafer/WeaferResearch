@@ -382,9 +382,27 @@ footer {
 }
 
 .container3 {
-  padding: 15%;
+  list-style: none;
+  display: flex;
+  margin: 15% 0 10% 0;
+  align-items: center;
+}
+.container3 li {
+  padding: 5%;
+}
+.container3 li a {
   font-size: 2.2rem;
   color: #141414;
+}
+
+.column1,
+.column2 {
+  flex-direction: column;
+  padding: 5%;
+}
+.column1 a i,
+.column2 a i {
+  padding: 25%;
 }
 
 @media only screen and (max-width: 320px) {
