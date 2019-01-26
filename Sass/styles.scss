@@ -229,6 +229,8 @@ footer{
 		}
 		li{
 			justify-content: flex-start;
+			width: 50vw;
+			margin-bottom: 10%;
 		}
   	}
   }
@@ -248,6 +250,7 @@ footer{
   	background: $black;
   	figure{
   		width: 100%;
+  		margin-bottom: 15%;
   	}
   }
   .twitter,
@@ -269,6 +272,7 @@ footer{
 .container1{
 	img{
 		margin: 0 5%;
+		width: 100vw;
 	}
 	p{
 		margin: 0;
@@ -279,6 +283,15 @@ footer{
 .container2{
 	h3{
 		padding-bottom: 5%;
+	}
+}
+
+.container3{
+	justify-content: space-around;
+	li{
+		a{
+			font-size: 3rem;
+		}
 	}
 }
 
