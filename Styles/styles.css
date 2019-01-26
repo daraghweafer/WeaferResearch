@@ -405,25 +405,76 @@ footer {
   padding: 25%;
 }
 
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 360px) {
+  body {
+    width: 100%;
+  }
+
+  header {
+    height: 50vh;
+  }
+  header nav {
+    height: 50vh;
+  }
+  header nav img {
+    margin-top: 5%;
+    padding: 0;
+  }
+  header nav li {
+    justify-content: flex-start;
+  }
+
   main {
     width: 100vw;
   }
 
   nav {
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
   }
   nav img {
     float: left;
   }
-  nav li {
-    float: left;
+
+  .caseStudy {
+    background: #141414;
+  }
+  .caseStudy figure {
+    width: 100%;
   }
 
-  .twitter-timeline a {
+  .twitter,
+.survey {
     display: none;
   }
 }
+footer {
+  flex-direction: column;
+}
+
+.container1,
+.container2,
+.container3 {
+  width: 100vw;
+}
+
+.container1 img {
+  margin: 0 5%;
+}
+.container1 p {
+  margin: 0;
+  padding: 10%;
+}
+
+.container2 h3 {
+  padding-bottom: 5%;
+}
+
+.column1,
+.column2 {
+  flex-direction: row;
+}
+
 @media only screen and (min-width: 1300px) {
   body {
     margin: 10%;

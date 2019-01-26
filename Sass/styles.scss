@@ -215,25 +215,76 @@ footer{
 
 ///mobile version 
 
-@media only screen and (max-width:320px) {
-  iframe{
-  	// display: none;
+@media only screen and (max-width:360px) {
+  body{
+  	width: 100%;
   }
+  header{
+  	height: 50vh;
+  	nav{
+		height: 50vh;
+		img{
+			margin-top: 5%;
+			padding: 0;
+		}
+		li{
+			justify-content: flex-start;
+		}
+  	}
+  }
+
   main{
   	width: 100vw;
   }
   nav{
-  	display: inline-block;
+  	display: flex;
+  	flex-direction: column;
   	img{
   		float: left;
   	}
-  	li{
-  		float: left;
+  }
+
+  .caseStudy{
+  	background: $black;
+  	figure{
+  		width: 100%;
   	}
   }
-  .twitter-timeline a{
+  .twitter,
+  .survey{
   	display: none;
   }
+}
+
+footer{
+	flex-direction: column;
+
+}
+.container1,
+.container2,
+.container3{
+	width: 100vw;
+}
+
+.container1{
+	img{
+		margin: 0 5%;
+	}
+	p{
+		margin: 0;
+		padding: 10%;
+	}
+}
+
+.container2{
+	h3{
+		padding-bottom: 5%;
+	}
+}
+
+.column1,
+.column2{
+	flex-direction: row;
 }
 
 //larger screens
