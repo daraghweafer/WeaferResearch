@@ -212,8 +212,6 @@ footer{
 
 ///mobile version 
 
-
-
 @media screen and ($width-name : $target-width) {
 
 $width-name: max-device-width;
@@ -309,6 +307,8 @@ $target-width: 320px;
 		flex-direction: row;
 	}
 }
+
+
 //larger screens
 
 @media only screen and (min-width:1300px){
