@@ -20,9 +20,6 @@ html{
 body{
 	font-family: 'Montserrat', sans-serif;
 	background: rgb(30,30,30);
-	// background-image: linear-gradient(rgba(10, 14, 23, 0.3),
-	//                                   rgba(10, 14, 23, 0.2)),
-	// 	                               url(..//Assets/prism.png);
 }
 
 .visuallyhidden:not(:focus):not(:active) {
@@ -41,7 +38,7 @@ body{
 header{
 	width: 100%;
 	background-color: $offwhite;
-	border-bottom: 3px solid $grey;
+	border-bottom: 3px solid gold;
 	margin-bottom: 3%;
 	nav{
 		display: flex;
@@ -96,7 +93,7 @@ main{
 }
 
 .twitter{
-	margin-bottom: 20%;
+	margin-bottom: 10%;
 }
 
 .caseStudy{
@@ -132,16 +129,17 @@ h2{
 	}
 	img{
 		max-width: 100%;
-		height: 220px;
+		height: 250px;
 		border-radius: 1% 1% 0 0;
 	}
 }
 
-// .caseStudy1{
-// 	img{
-// 		height: auto;
-// 	}
-// }
+.survey{
+	width: 80%;
+	margin: 10%;
+	height: 100vh;
+}
+
 
 $width-name: max-device-width;
 $target-width: 320px;
@@ -151,7 +149,7 @@ $target-width: 320px;
 
 @media screen and ($width-name : $target-width) {
   iframe{
-  	display: none;
+  	// display: none;
   }
   main{
   	width: 100vw;
@@ -165,7 +163,7 @@ $target-width: 320px;
   		float: left;
   	}
   }
-  a.twitter-timeline{
+  .twitter-timeline a{
   	display: none;
   }
 }
