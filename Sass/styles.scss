@@ -212,10 +212,13 @@ footer{
 
 ///mobile version 
 
+
+
+@media screen and ($width-name : $target-width) {
+
 $width-name: max-device-width;
 $target-width: 320px;
 
-@media screen and ($width-name : $target-width) {
   body{
   	width: 100%;
   }
