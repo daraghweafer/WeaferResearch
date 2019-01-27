@@ -296,7 +296,7 @@ main img {
 
 .religiousSurvey {
   padding: 10%;
-  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../Assets/book-background.jpg) no-repeat center fixed;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../Assets/) no-repeat center fixed;
   background-size: cover;
 }
 
@@ -317,7 +317,7 @@ h2 {
 }
 .religiousSurveyImages figcaption {
   font-size: 2rem;
-  padding: 5%;
+  padding: 10% 5%;
 }
 .religiousSurveyImages figcaption .seeMore {
   font-size: 1.2rem;
@@ -325,13 +325,16 @@ h2 {
   text-decoration: none;
   justify-content: flex-end;
   display: flex;
-  padding: 5% 0 0 5%;
+  position: absolute;
+  top: 95%;
+  right: 5%;
 }
 .religiousSurveyImages figure {
   width: 30%;
   background-color: #FFFAFA;
   border-radius: 1%;
   margin: 1%;
+  position: relative;
 }
 .religiousSurveyImages img {
   max-width: 100%;
