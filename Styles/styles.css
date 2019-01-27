@@ -319,6 +319,14 @@ h2 {
   font-size: 2rem;
   padding: 5%;
 }
+.caseStudyImages figcaption .seeMore {
+  font-size: 1.2rem;
+  color: #4169E1;
+  text-decoration: none;
+  justify-content: flex-end;
+  display: flex;
+  padding: 5% 0 0 5%;
+}
 .caseStudyImages figure {
   width: 30%;
   background-color: #FFFAFA;

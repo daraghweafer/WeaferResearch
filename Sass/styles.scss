@@ -4,7 +4,7 @@ html{line-height:1.15;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}bo
 
 * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
 
-$blue: #6495ED;
+$blue: #4169E1;
 $lightblue:#bfd4ef;
 $darkblue: #191970;
 $white:#FFFFFF;
@@ -120,6 +120,14 @@ h2{
 	figcaption{
 		font-size: 2rem;
 		padding: 5%;
+		.seeMore{
+			font-size: 1.2rem;
+			color: $blue;
+			text-decoration: none;
+			justify-content: flex-end;
+			display: flex;
+			padding: 5% 0 0 5%;
+		}
 	}
 	figure{
 		width: 30%;
